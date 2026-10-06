@@ -233,7 +233,7 @@ const Hero = () => {
 };
 
 export default Hero;
-// Замени ник и роль игроков; когда появятся аватарки — подставь их вместо буквы
+
 const PLAYERS = [
   { nick: "ka1zen", role: "IGL" },
   { nick: "zimoro_4", role: "Rifler" },
@@ -273,15 +273,6 @@ import SectionHead from "./SectionHead";
 
 type Status = "Ожидается" | "Подтверждено";
 
-// Замени даты, турниры, соперников и ссылки на стрим
-const UPCOMING: { date: string; tournament: string; opponent: string; format: string; status: Status; stream: string }[] = [];
-
-// Замени на реальные сыгранные матчи и ссылки на демо
-const PLAYED: { date: string; tournament: string; opponent: string; score: string; result: "W" | "L"; demo: string }[] = [];
-
-// Замени на полный список матчей
-const ALL: { date: string; tournament: string; opponent: string; score: string; format: string; result: string }[] = [
-  { date: "07.10.2026", tournament: "Турнир FastCup · $20", opponent: "—", score: "—", format: "—", result: "Сорван" },
 ];
 
 const Empty = () => (
@@ -754,4 +745,4 @@ export const LINKS = {
   telegram: "#", // Замени на ссылку на Telegram-канал
   email: "team@govu1sen.ru", // Замени на реальную почту
 };
-            
+ /github-site.html           
